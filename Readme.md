@@ -1,7 +1,7 @@
 # Личный проект «Пинк» 
 
 * Студент: [Алексей](https://htmlacademy.ru/profile/id886491).
-* Наставник: `aaltn`.
+* Наставник: [`aaltn`] (alex.altn@gmail.com).
 
 ---
 

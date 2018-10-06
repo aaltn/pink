@@ -2,17 +2,22 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>Пинк - лучшее приложение для смартфонов</title>
+    <title>«Пинк» - лучшее приложение для смартфонов</title>
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
     <header class="page-header">
       <nav class="main-nav">
-        <a class="main-nav__logo">
-          <img class="main-nav__logo-image" src="http://placehold.it/75x22" alt="логотип сайта Пинк" width="100" height="50">
+        <a class="logo">
+          <img class="logo__image" src="img/logo-pink-white-mobile.svg" alt="логотип сайта Пинк" width="76" height="26">
           <!-- img/logotipe-mobile.svg -->
+          <!-- img/logotipe-tablet.svg -->
+          <!-- img/logotipe-desktop.svg -->
         </a>
-        <button class="main-nav__toggler" type="button">Открыть\закрыть меню</button>
-        <div class="main-nav__wraper">
+        <button class="main-nav__toggler" type="button">
+          <span class="visually-hidden">Открыть\закрыть меню</span>
+        </button>
+        <div class="main-nav__wrapper">
           <ul class="main-nav__list">
             <li class="main-nav__item  main-nav__item--active">
               <a>Главная</a>
@@ -30,6 +35,43 @@
         </div>
       </nav>
     </header>
+
+    <main class="page-main">
+
+      <h1 class="visually-hidden">Мобильное приложение «Пинк» - лучшее приложение для смартфонов.</h1>
+
+      <section class="application">
+        <h2 class="visually-hidden">Ссылки на приложение.</h2>
+        <img class="application__img" src="img/iphone-hand-mobile@1x.png" alt="Пример приложения на iPhone"  width="258" height="286">
+        <div class="application__wrapper">
+          <b class="application__promo">Взгляните на жизнь иначе!</b>
+          <a class="application__link button"  href="https://itunes.apple.com/" title="Скачать для iPhone">Скачать приложение</a>
+          <ul class="application__list">
+            <li class="application__item">
+              <a class="application__link  application__link--iphone" href="https://itunes.apple.com/" title="Скачать для iPhone">Скачать для iPhone</a>
+            </li>
+            <li class="application__item">
+              <a class="application__link  application__link--android"  href="https://play.google.com/" title="Скачать для Android">Скачать для Android</a>
+            </li>
+            <li class="application__item">
+              <a class="application__link  application__link--windows"  href="https://www.microsoft.com/store/" title="Скачать для Windows Phone">Скачать для Windows Phone</a>
+            </li>
+          </ul>
+          <p class="application__description">Доступно для iPhone, iPad, Android,<br> Windows Phone, OS X, Windows 8</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="page-footer">
+      <a class="logo">
+          <img class="logo__image  logo__image--footer" src="http://placehold.it/75x22" alt="логотип сайта Пинк" width="100" height="50">
+          <!-- img/logotipe-mobile.svg -->
+          <!-- img/logotipe-tablet.svg -->
+          <!-- img/logotipe-desktop.svg -->
+        </a>
+
+    </footer>
+
 
 
 

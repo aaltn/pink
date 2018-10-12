@@ -42,7 +42,7 @@
     <main class="page-main">
       <section class="gallery-posts">
         <h2 class="visually-hidden">Недавние посты</h2>
-        <p class="gallery-posts__lead">Взгляните на фотографии, которые выкладывают пользователи! Видите, как не хватает ваших?</p>
+        <p class="page-main__lead">Взгляните на фотографии, которые выкладывают пользователи! Видите, как не хватает ваших?</p>
         <article class="post  post--best">
           <h3 class="post__title">Панорама дня</h3>
           <a href="#" class="post__image">
@@ -186,7 +186,36 @@
             </div>
           </article>
         </div>
-        <!-- -------------------------------- -->
+      </section>
+      <section class="filters">
+        <h3 class="visually-hidden">Запостить фоточку:</h3>
+        <p class="page-main__lead">Затмите их всех!<br> Выкладывайте все, что накопилось в телефоне!</p>
+        <div class="filters__feature">
+          <img class="filters__image-preview" src="img/photo-road-desktop@1x.jpg" width="280" height="374" alt="Снежная дорога">
+          <p class="filters__toggler  slider__toggler">
+            <button class="slider__button"  type="button" id="button-cut">Обрезка</button>
+            <button class="slider__button  slider__button--active"  type="button" id="button-fill">Заливка</button>
+            <button class="slider__button"  type="button" id="button-contrast">Контрастность</button>
+          </p>
+          <form class="filters-form  slider" action="https://echo.htmlacademy.ru" method="get">
+            <ul class="filters-form__list  slider__list">
+              <li class="filters-form__item  filters-form__item--cut  slider__item">
+                <label class="filters-form__label" for="range-cut">Обрезка</label>
+                <input class="filters-form__input" type="range" name="range-cut" min="0" max="100" id="range-cut">
+              </li>
+              <li class="filters-form__item  filters-form__item--cut  slider__item">
+                <label class="filters-form__label" for="range-contrast">Контрастность</label>
+                <input class="filters-form__input" type="range" name="range-fill" id="range-fill">
+              </li>
+              <li class="filters-form__item  filters-form__item--cut  slider__item">
+                <label class="filters-form__label" for="range-contrast">Контрастность</label>
+                <input class="filters-form__input" type="range" name="range-contrast" id="range-contrast">
+              </li>
+            </ul>
+            <button class="filters-form__button  button" type="submit">Запостить</button>
+            <button class="filters-form__button  button" type="reset">Отмена</button>
+          </form>
+        </div>
       </section>
     </main>
 
@@ -215,11 +244,7 @@
         <b class="copyright__text">Свёрстанно</b>
         <a class="copyright__link  button" href="https://aaltn.github.io">coder AAltn</a>
       </div>
-
     </footer>
-
-
-
 
   </body>
 </html>
